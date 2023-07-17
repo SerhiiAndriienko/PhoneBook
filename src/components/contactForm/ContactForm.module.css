@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+}
+input {
+  margin-top: 10px;
+}
+.btn {
+  margin: 0 auto;
+  width: 200px;
+  display: block;
+  text-decoration: none;
+  border-radius: 45px;
+  padding: 5px;
+  text-align: center;
+  font-weight: 600;
+  background: rgb(186, 217, 245);
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #2e8de5;
+  color: white;
+}

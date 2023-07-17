@@ -1,0 +1,50 @@
+h4 {
+  margin: 0;
+}
+.contactsForm {
+  margin: 0 auto;
+  width: 70%;
+  max-width: 800px;
+  /* padding-left: 20px; */
+  background-color: rgba(102, 169, 224, 0.396);
+  border-radius: 15px;
+}
+h1,
+h2 {
+  text-align: center;
+}
+
+p {
+  margin: 0;
+  padding-top: 20px;
+  text-align: center;
+}
+
+button {
+  font-size: 14px;
+  color: #1a1919;
+}
+button:hover {
+  background: #2e8de5;
+  color: white;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+}
+label {
+  display: grid;
+  /* grid-template-columns: 35% 35%x; */
+}
+.contactsList {
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 70%;
+  /* padding-left: 20px; */
+  max-width: 800px;
+
+  background-color: rgba(102, 169, 224, 0.396);
+  border-radius: 15px;
+}

@@ -1,0 +1,30 @@
+.btn {
+  min-width: 80px;
+  margin-top: 10px;
+  /* flex: 1; */
+
+  display: block;
+  text-decoration: none;
+  border-radius: 45px;
+  padding: 5px;
+  text-align: center;
+  font-weight: 600;
+  background: rgb(186, 217, 245);
+  transition: 0.3s;
+}
+.btn:hover {
+  background: #2e8de5;
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.btn:hover {
+  background: #2e8de5;
+  color: white;
+}

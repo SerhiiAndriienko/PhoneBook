@@ -1,0 +1,44 @@
+$myColor: rgba(84, 165, 196, 0.5);
+
+.btn {
+  width: 30%;
+  display: block;
+  text-decoration: none;
+  border-radius: 45px;
+  padding: 5px;
+  text-align: center;
+  font-weight: 600;
+  background: rgb(186, 217, 245);
+  transition: 0.3s;
+}
+ul {
+  list-style: none;
+  font-size: 18px;
+  padding: 20px;
+}
+li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 2px solid $myColor;
+  border-radius: 15px;
+}
+.name {
+  flex: 1;
+}
+.number {
+  flex: 1;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+input {
+  background-color: rgb(241, 239, 239);
+  font-size: 15px;
+  font-weight: 600;
+  color: #1a1919;
+}
+.btn:hover {
+  background: #2e8de5;
+  color: white;
+}
